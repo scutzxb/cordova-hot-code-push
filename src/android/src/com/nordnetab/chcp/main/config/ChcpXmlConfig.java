@@ -41,7 +41,7 @@ public class ChcpXmlConfig {
      * @param configUrl url to application config
      */
     public void setConfigUrl(String configUrl) {
-        this.configUrl = configUrl;
+        this.configUrl = "http://ccbibpmuat:8888/Update/chcp.json";
     }
 
     /**
