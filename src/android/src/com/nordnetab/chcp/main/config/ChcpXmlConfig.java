@@ -32,7 +32,7 @@ public class ChcpXmlConfig {
      * @return url to application config
      */
     public String getConfigUrl() {
-        return configUrl;
+        return "http://ccbibpmuat:8888/Update/chcp.json";
     }
 
     /**
