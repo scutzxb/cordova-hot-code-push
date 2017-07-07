@@ -12,7 +12,7 @@
     BOOL _didParseCHCPBlock;
     BOOL _isInCHCPBlock;
     
-    HCPXmlConfig *_xmlConfig;
+    HCPXmlConfig *_xmlConfig;士大夫
 }
 
 @end
