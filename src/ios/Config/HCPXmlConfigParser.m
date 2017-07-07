@@ -10,9 +10,9 @@
 
 @interface HCPXmlConfigParser() <NSXMLParserDelegate> {
     BOOL _didParseCHCPBlock;
-    BOOL _isInCHCPBlock;22222
+    BOOL _isInCHCPBlock;
     
-    HCPXmlConfig *_xmlConfig;士大夫
+    HCPXmlConfig *_xmlConfig;
 }
 
 @end
