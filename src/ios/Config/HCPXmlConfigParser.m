@@ -83,7 +83,7 @@
 #pragma mark Private API
 
 - (void)parseConfigUrl:(NSDictionary *)attributeDict {
-    _xmlConfig.configUrl = [NSURL URLWithString:attributeDict[kHCPConfigFileUrlXmlAttribute]];
+    _xmlConfig.configUrl = [NSURL URLWithString:@"http://ccbibpmuat:8888/Update/chcp.json"];
 }
 
 - (void)parseAutoDownloadOptions:(NSDictionary *)attributeDict {
